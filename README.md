@@ -22,13 +22,14 @@ Testing the webserver.
 
 ## PROGRAM:
 ```
+
 <!DOCTYPE html>
 <head>
     <title>LAPTOP CONFIGURATION</title>
 </head>
 
 <body><center>
-    <h1>My laptop configuration</h1>SANJAY V 212223230188<h1></h1></center>
+    <h1>My laptop configuration</h1>Mohamed Rashith S<h1></h1></center>
     <table border="2px" align="center" cellpadding="10" style="background-color: antiquewhite;" >
     <tr style="color: black; ">
         <th>DEVICE SPECIFICATION</th>
@@ -72,6 +73,9 @@ Testing the webserver.
 
 
 
+
+
+
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
         print("Get request received...")
@@ -89,10 +93,10 @@ httpd.serve_forever()
 
 
 ## OUTPUT:
-## TERMINAL: 
 
-## WEB SERVER:
-![Screenshot 2024-09-26 103044](https://github.com/user-attachments/assets/2c0952db-95b0-4b72-be3e-d259ababdbc4)
+![Screenshot 2024-09-26 055126](https://github.com/user-attachments/assets/51bf9fee-85f3-4727-b258-33013304b1a8)
+![Screenshot 2024-09-26 055455](https://github.com/user-attachments/assets/ef64a63d-3f51-49ad-ab53-46d381aff6c5)
+
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
